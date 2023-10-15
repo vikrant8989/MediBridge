@@ -1,0 +1,79 @@
+2023-10-09 15:19:48,558 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-09 15:19:48,559 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:28:00,481 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:00] "GET /medicines/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-09 15:28:00,598 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:00] "GET /get_image/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-09 15:33:59,155 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:59] "GET /medicines/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-09 15:33:59,169 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:59] "[36mGET /get_image/Burfen%20400%20Tablet HTTP/1.1[0m" 304 -
+2023-10-09 15:34:31,236 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:31] "OPTIONS /pharmacies/login HTTP/1.1" 200 -
+2023-10-09 15:34:31,274 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:31] "GET /pharmacies/login HTTP/1.1" 200 -
+2023-10-09 15:34:33,602 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:33] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-09 15:34:33,674 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:33] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-09 15:34:33,726 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:33] "GET /get_image/Aciloc%20150%20Tablet HTTP/1.1" 200 -
+2023-10-09 15:34:33,727 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:33] "GET /get_image/Combiflam HTTP/1.1" 200 -
+2023-10-09 15:34:33,837 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:33] "GET /get_image/Paracetamol HTTP/1.1" 200 -
+2023-10-09 16:54:19,020 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:54:19] "GET /medicines/Rapilif-D%208%20New%20Capsule HTTP/1.1" 200 -
+2023-10-09 16:54:19,066 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:54:19] "GET /get_image/Rapilif-D%208%20New%20Capsule HTTP/1.1" 200 -
+2023-10-09 18:47:25,835 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:25] "GET /medicines/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-09 18:47:25,853 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:25] "[36mGET /get_image/Burfen%20400%20Tablet HTTP/1.1[0m" 304 -
+2023-10-09 18:50:35,002 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:35] "GET /medicines/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-09 18:50:35,024 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:35] "[36mGET /get_image/Burfen%20400%20Tablet HTTP/1.1[0m" 304 -
+2023-10-09 18:54:54,358 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:54] "OPTIONS /pharmacies/login HTTP/1.1" 200 -
+2023-10-09 18:54:54,370 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:54] "GET /pharmacies/login HTTP/1.1" 200 -
+2023-10-09 18:54:56,165 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:56] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-09 18:54:56,194 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:56] "[36mGET /get_image/Aciloc%20150%20Tablet HTTP/1.1[0m" 304 -
+2023-10-09 18:54:56,216 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:56] "[36mGET /get_image/Paracetamol HTTP/1.1[0m" 304 -
+2023-10-09 18:54:56,255 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:56] "[36mGET /get_image/Combiflam HTTP/1.1[0m" 304 -
+2023-10-09 18:54:56,289 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:56] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-09 19:00:30,016 [INFO]: 127.0.0.1 - - [09/Oct/2023 19:00:30] "GET /medicines/Ceftum%20500mg%20Tablet HTTP/1.1" 200 -
+2023-10-09 19:00:30,057 [INFO]: 127.0.0.1 - - [09/Oct/2023 19:00:30] "GET /get_image/Ceftum%20500mg%20Tablet HTTP/1.1" 200 -
+2023-10-10 04:13:48,826 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-10 04:13:48,832 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 05:00:24,352 [INFO]: 127.0.0.1 - - [10/Oct/2023 05:00:24] "GET /medicines/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-10 05:00:24,427 [INFO]: 127.0.0.1 - - [10/Oct/2023 05:00:24] "[36mGET /get_image/Burfen%20400%20Tablet HTTP/1.1[0m" 304 -
+2023-10-10 05:30:40,983 [INFO]: 127.0.0.1 - - [10/Oct/2023 05:30:40] "GET /medicines/Rapilif-D%208%20New%20Capsule HTTP/1.1" 200 -
+2023-10-10 05:30:41,085 [INFO]: 127.0.0.1 - - [10/Oct/2023 05:30:41] "[36mGET /get_image/Rapilif-D%208%20New%20Capsule HTTP/1.1[0m" 304 -
+2023-10-10 06:05:05,515 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:05] "OPTIONS /pharmacies/login HTTP/1.1" 200 -
+2023-10-10 06:05:05,591 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:05] "GET /pharmacies/login HTTP/1.1" 200 -
+2023-10-10 06:05:14,557 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:14] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-10 06:05:14,632 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:14] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-10 06:05:14,667 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:14] "[36mGET /get_image/Paracetamol HTTP/1.1[0m" 304 -
+2023-10-10 06:05:14,669 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:14] "[36mGET /get_image/Combiflam HTTP/1.1[0m" 304 -
+2023-10-10 06:05:14,687 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:14] "[36mGET /get_image/Aciloc%20150%20Tablet HTTP/1.1[0m" 304 -
+2023-10-10 17:31:37,309 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-10 17:31:37,317 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 18:53:36,367 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:53:36] "GET /medicines/eew HTTP/1.1" 200 -
+2023-10-10 19:03:14,474 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:03:14] "OPTIONS /pharmacies/login HTTP/1.1" 200 -
+2023-10-10 19:03:14,483 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:03:14] "GET /pharmacies/login HTTP/1.1" 200 -
+2023-10-10 19:05:37,216 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:37] "OPTIONS /pharmacies/login HTTP/1.1" 200 -
+2023-10-10 19:05:37,224 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:37] "GET /pharmacies/login HTTP/1.1" 200 -
+2023-10-11 06:03:33,532 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-11 06:03:33,549 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-11 06:31:28,908 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:31:28] "OPTIONS /pharmacies/login HTTP/1.1" 200 -
+2023-10-11 06:31:28,920 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:31:28] "GET /pharmacies/login HTTP/1.1" 200 -
+2023-10-11 06:31:49,754 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:31:49] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-11 06:31:49,813 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:31:49] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-11 06:31:49,956 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:31:49] "[36mGET /get_image/Paracetamol HTTP/1.1[0m" 304 -
+2023-10-11 06:31:49,961 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:31:49] "[36mGET /get_image/Aciloc%20150%20Tablet HTTP/1.1[0m" 304 -
+2023-10-11 06:31:49,971 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:31:49] "[36mGET /get_image/Combiflam HTTP/1.1[0m" 304 -
+2023-10-11 06:33:32,762 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:33:32] "GET /medicines/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-11 06:33:32,782 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:33:32] "[36mGET /get_image/Burfen%20400%20Tablet HTTP/1.1[0m" 304 -
+2023-10-11 06:33:40,542 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:33:40] "GET /medicines/eew HTTP/1.1" 200 -
+2023-10-11 07:30:58,480 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:30:58] "OPTIONS /pharmacies/login HTTP/1.1" 200 -
+2023-10-11 07:30:58,490 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:30:58] "GET /pharmacies/login HTTP/1.1" 200 -
+2023-10-11 07:31:09,661 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:31:09] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-11 07:31:09,694 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:31:09] "[36mGET /get_image/Aciloc%20150%20Tablet HTTP/1.1[0m" 304 -
+2023-10-11 07:31:09,703 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:31:09] "GET /pharmacies/getmed/Ap1/ HTTP/1.1" 200 -
+2023-10-11 07:31:09,706 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:31:09] "[36mGET /get_image/Paracetamol HTTP/1.1[0m" 304 -
+2023-10-11 07:31:09,708 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:31:09] "[36mGET /get_image/Combiflam HTTP/1.1[0m" 304 -
+2023-10-11 07:31:53,280 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:31:53] "GET /medicines/Burfen%20400%20Tablet HTTP/1.1" 200 -
+2023-10-11 07:31:53,295 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:31:53] "[36mGET /get_image/Burfen%20400%20Tablet HTTP/1.1[0m" 304 -
+2023-10-11 07:32:03,074 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:32:03] "GET /medicines/eew HTTP/1.1" 200 -
+2023-10-14 15:46:37,960 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2023-10-14 15:46:37,960 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-14 15:53:19,162 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:53:19] "GET /medicines/Rapilif-D%208%20New%20Capsule HTTP/1.1" 200 -
+2023-10-14 15:53:19,207 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:53:19] "GET /get_image/Rapilif-D%208%20New%20Capsule HTTP/1.1" 200 -

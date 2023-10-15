@@ -1,0 +1,77 @@
+2023-10-09 14:58:02,094 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2023-10-09 14:58:02,094 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:28:47,248 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:47] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-09 15:28:47,312 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:47] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-09 15:38:45,294 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:45] "POST /book_appointment/1/H75P/2023-10-10%2017:40 HTTP/1.1" 200 -
+2023-10-09 15:39:52,291 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:39:52] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-09 15:39:52,343 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:39:52] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-09 15:40:46,542 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:40:46] "[32mGET /appointment/1 HTTP/1.1[0m" 308 -
+2023-10-09 15:40:46,609 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:40:46] "GET /appointment/1/ HTTP/1.1" 200 -
+2023-10-09 15:40:46,661 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:40:46] "GET /appointment/1/ HTTP/1.1" 200 -
+2023-10-09 15:58:33,198 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:58:33] "[32mGET /appointment/EQAE HTTP/1.1[0m" 308 -
+2023-10-09 15:58:33,208 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:58:33] "GET /appointment/EQAE/ HTTP/1.1" 200 -
+2023-10-09 15:58:33,221 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:58:33] "GET /appointment/EQAE/ HTTP/1.1" 200 -
+2023-10-09 16:23:16,132 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:23:16] "GET /appointment/5/ HTTP/1.1" 200 -
+2023-10-09 16:23:16,204 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:23:16] "GET /appointment/5/ HTTP/1.1" 200 -
+2023-10-09 16:57:02,662 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:57:02] "POST /book_appointment/915V/QANE/2023-10-18%2010:00 HTTP/1.1" 200 -
+2023-10-09 16:57:05,836 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:57:05] "POST /book_appointment/915V/QANE/2023-10-18%2010:00 HTTP/1.1" 200 -
+2023-10-09 16:58:41,921 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:58:41] "[32mGET /appointment/915V HTTP/1.1[0m" 308 -
+2023-10-09 16:58:41,944 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:58:41] "GET /appointment/915V/ HTTP/1.1" 200 -
+2023-10-09 16:58:41,975 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:58:41] "GET /appointment/915V/ HTTP/1.1" 200 -
+2023-10-09 18:51:42,079 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:51:42] "POST /book_appointment/4/QANE/2023-10-19%2011:01 HTTP/1.1" 200 -
+2023-10-09 18:51:59,448 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:51:59] "POST /book_appointment/4/QANE/2023-10-19%2011:01 HTTP/1.1" 200 -
+2023-10-09 18:51:59,465 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:51:59] "POST /book_appointment/4/QANE/2023-10-19%2011:01 HTTP/1.1" 200 -
+2023-10-09 18:52:31,897 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:31] "POST /book_appointment/4/QANE/2023-10-19%2011:01 HTTP/1.1" 200 -
+2023-10-09 18:54:04,534 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:04] "[32mGET /appointment/4 HTTP/1.1[0m" 308 -
+2023-10-09 18:54:04,563 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:04] "GET /appointment/4/ HTTP/1.1" 200 -
+2023-10-09 18:54:04,614 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:04] "GET /appointment/4/ HTTP/1.1" 200 -
+2023-10-10 04:12:42,074 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2023-10-10 04:12:42,086 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 06:01:47,865 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:01:47] "POST /book_appointment/1/QANE/2023-10-18%2009:59 HTTP/1.1" 200 -
+2023-10-10 06:01:56,885 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:01:56] "POST /book_appointment/1/QANE/2023-10-18%2009:59 HTTP/1.1" 200 -
+2023-10-10 06:02:41,143 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:02:41] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-10 06:02:41,221 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:02:41] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-10 17:30:31,536 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2023-10-10 17:30:31,550 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 18:12:20,679 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:12:20] "POST /book_appointment/2/PKYP/2023-09-15%2000:00 HTTP/1.1" 200 -
+2023-10-10 18:13:29,285 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:13:29] "POST /book_appointment/2/PKYP/2023-09-15%2000:00 HTTP/1.1" 200 -
+2023-10-10 18:15:06,629 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:15:06] "POST /book_appointment/2/PKYP/2023-09-15%2012:00 HTTP/1.1" 200 -
+2023-10-10 18:16:14,054 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:16:14] "POST /book_appointment/2/PKYP/2023-09-15%2022:00 HTTP/1.1" 200 -
+2023-10-10 18:16:15,213 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:16:15] "POST /book_appointment/2/PKYP/2023-09-15%2022:00 HTTP/1.1" 200 -
+2023-10-10 18:16:58,126 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:16:58] "POST /book_appointment/2/PKYP/2023-09-15%2023:00 HTTP/1.1" 200 -
+2023-10-10 18:18:06,844 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:18:06] "[32mGET /appointment/2 HTTP/1.1[0m" 308 -
+2023-10-10 18:18:06,890 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:18:06] "GET /appointment/2/ HTTP/1.1" 200 -
+2023-10-10 18:18:06,941 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:18:06] "GET /appointment/2/ HTTP/1.1" 200 -
+2023-10-10 18:51:11,194 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:51:11] "POST /book_appointment/1/PFTV/2023-10-18%2010:00 HTTP/1.1" 200 -
+2023-10-10 18:51:20,708 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:51:20] "POST /book_appointment/1/PFTV/2023-10-18%2010:00 HTTP/1.1" 200 -
+2023-10-10 18:51:57,037 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:51:57] "GET /appointment/1/ HTTP/1.1" 200 -
+2023-10-10 18:51:57,110 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:51:57] "GET /appointment/1/ HTTP/1.1" 200 -
+2023-10-10 19:05:20,333 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:20] "GET /appointment/1/ HTTP/1.1" 200 -
+2023-10-10 19:05:20,389 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:20] "GET /appointment/1/ HTTP/1.1" 200 -
+2023-10-10 19:05:43,243 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:43] "GET /appointment/2/ HTTP/1.1" 200 -
+2023-10-10 19:05:43,300 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:43] "GET /appointment/2/ HTTP/1.1" 200 -
+2023-10-11 06:02:11,735 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2023-10-11 06:02:11,735 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-11 06:29:17,990 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:29:17] "POST /book_appointment/3/E1M6/2023-10-19%2010:00 HTTP/1.1" 200 -
+2023-10-11 06:29:31,123 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:29:31] "POST /book_appointment/3/E1M6/2023-10-19%2010:00 HTTP/1.1" 200 -
+2023-10-11 06:30:24,297 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:24] "[32mGET /appointment/3 HTTP/1.1[0m" 308 -
+2023-10-11 06:30:24,326 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:24] "GET /appointment/3/ HTTP/1.1" 200 -
+2023-10-11 06:30:24,361 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:24] "GET /appointment/3/ HTTP/1.1" 200 -
+2023-10-11 07:27:07,631 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:27:07] "POST /book_appointment/A7FJ/RE4U/2023-10-18%2010:11 HTTP/1.1" 200 -
+2023-10-11 07:27:28,589 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:27:28] "POST /book_appointment/A7FJ/RE4U/2023-10-18%2010:11 HTTP/1.1" 200 -
+2023-10-11 07:28:41,816 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:28:41] "[32mGET /appointment/A7FJ HTTP/1.1[0m" 308 -
+2023-10-11 07:28:41,834 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:28:41] "GET /appointment/A7FJ/ HTTP/1.1" 200 -
+2023-10-11 07:28:41,863 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:28:41] "GET /appointment/A7FJ/ HTTP/1.1" 200 -
+2023-10-14 15:45:54,860 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2023-10-14 15:45:54,860 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-14 15:57:31,596 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:57:31] "[32mGET /appointment/6 HTTP/1.1[0m" 308 -
+2023-10-14 15:57:31,619 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:57:31] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-14 15:57:31,643 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:57:31] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-14 16:26:09,006 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:26:09] "[32mGET /appointment/6 HTTP/1.1[0m" 308 -
+2023-10-14 16:26:09,029 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:26:09] "GET /appointment/6/ HTTP/1.1" 200 -
+2023-10-14 16:26:09,054 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:26:09] "GET /appointment/6/ HTTP/1.1" 200 -

@@ -1,0 +1,180 @@
+2023-10-09 15:32:47,769 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-09 15:32:47,769 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:33:05,536 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:05] "GET /prescription/1 HTTP/1.1" 200 -
+2023-10-09 15:33:05,594 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:05] "GET /prescription/1 HTTP/1.1" 200 -
+2023-10-09 15:33:26,281 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:26] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:33:26,363 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:26] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:38:56,654 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:56] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:38:56,700 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:56] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:41:17,116 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:41:17] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-09 15:41:17,131 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:41:17] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-09 15:41:37,561 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 15:41:37,562 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:41:37] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:41:37,614 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 15:41:37,615 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:41:37] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:45:28,523 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-09 15:45:28,524 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:45:52,984 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 15:45:52,985 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:45:52] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:45:53,058 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 15:45:53,059 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:45:53] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:47:41,378 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-09 15:47:41,379 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:49:12,629 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-09 15:49:12,630 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:49:37,064 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:49:37] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 15:49:37,140 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:49:37] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:01:58,599 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:58] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:01:58,641 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:58] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:07:03,488 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:07:03] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-09 16:07:03,534 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:07:03] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-09 16:12:34,110 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:12:34] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-09 16:12:34,200 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:12:34] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-09 16:17:28,092 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:17:28] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-09 16:17:46,774 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:17:46] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-09 16:17:46,782 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:17:46] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-09 16:26:16,110 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:26:16] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-09 16:26:16,119 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:26:16] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-09 16:26:33,051 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 16:26:33,052 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:26:33] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:26:33,067 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 16:26:33,068 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:26:33] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:43:35,796 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 16:43:35,797 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:43:35] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:43:35,808 [ERROR]: Error in getallprescriptionbyuserid: 2 or more items returned, instead of 1
+2023-10-09 16:43:35,809 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:43:35] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:44:23,745 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-09 16:44:23,745 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 16:45:28,580 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:28] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:45:29,105 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:29] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-09 16:47:20,490 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:47:20] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 16:47:20,578 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:47:20] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 16:55:52,271 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:55:52] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 16:55:52,349 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:55:52] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 16:56:14,186 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:14] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 16:56:14,519 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:14] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 16:58:57,301 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:58:57] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-09 16:58:57,314 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:58:57] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-09 16:59:10,444 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 16:59:10,494 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:47:58,765 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:47:58,895 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:50:38,016 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:50:38,100 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:52:46,198 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:52:46,264 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:54:17,228 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:17] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-09 18:54:17,240 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:17] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-09 18:54:34,291 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:54:34,367 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:59:20,729 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-09 18:59:20,806 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 04:14:48,699 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-10 04:14:48,719 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 04:17:42,376 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 04:17:42,443 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 04:26:56,141 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 04:26:56,202 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 04:35:49,194 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 04:35:49,259 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 06:00:42,753 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 06:00:42,816 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /prescription/QANE HTTP/1.1" 200 -
+2023-10-10 06:03:13,167 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:03:13] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-10 06:03:13,259 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:03:13] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-10 06:04:12,888 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "GET /prescription/1 HTTP/1.1" 200 -
+2023-10-10 06:04:12,931 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "GET /prescription/1 HTTP/1.1" 200 -
+2023-10-10 17:33:12,462 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-10 17:33:12,490 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 17:43:18,601 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:43:18] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:43:18,612 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:43:18] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:53:37,842 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-10 17:53:37,842 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 17:53:49,334 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:53:49] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:53:49,355 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:53:49] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:57:07,316 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-10 17:57:07,317 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 17:57:27,160 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:57:27] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:57:27,202 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:57:27] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:58:25,638 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-10 17:58:25,639 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 17:58:35,037 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:58:35] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:58:35,075 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:58:35] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:59:20,889 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:59:20] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:59:25,918 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:59:25] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 17:59:25,961 [INFO]: 127.0.0.1 - - [10/Oct/2023 17:59:25] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:00:41,112 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:00:41] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:04:25,588 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:04:25] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:04:33,522 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:04:33] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:04:33,573 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:04:33] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:07:47,120 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:07:47] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:08:06,130 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:08:06] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:08:23,825 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:08:23] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:08:23,923 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:08:23] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:09:09,446 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:09:09] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:09:15,295 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:09:15] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:09:15,344 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:09:15] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:09:30,124 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:09:30] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:10:26,082 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:10:26] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:10:37,256 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:10:37] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:10:43,877 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:10:43] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:17:12,474 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:17:12] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:17:12,499 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:17:12] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:19:46,135 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:19:46] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-10 18:19:46,151 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:19:46] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-10 18:20:02,206 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:02] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:20:02,260 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:02] "GET /prescription/PKYP HTTP/1.1" 200 -
+2023-10-10 18:23:01,398 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:23:01] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:23:01,408 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:23:01] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:36:17,991 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:36:17] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:36:18,017 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:36:18] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:36:34,886 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:36:34] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:36:38,566 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:36:38] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:36:38,636 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:36:38] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:36:47,162 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:36:47] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:38:31,766 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:38:31] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:38:31,785 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:38:31] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:39:00,805 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:00] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:39:00,829 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:00] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:52:22,699 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:22] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-10 18:52:22,709 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:22] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-10 18:52:57,832 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:57] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 18:52:57,867 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:57] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 19:05:03,153 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:03] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-10 19:05:03,189 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:03] "GET /prescription/PFTV HTTP/1.1" 200 -
+2023-10-11 06:04:29,093 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-11 06:04:29,109 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-11 06:04:35,493 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-11 06:04:35,494 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-11 06:28:35,574 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:35] "GET /prescription/E1M6 HTTP/1.1" 200 -
+2023-10-11 06:28:35,584 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:35] "GET /prescription/E1M6 HTTP/1.1" 200 -
+2023-10-11 06:30:40,093 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:40] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-11 06:30:40,106 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:40] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-11 06:30:58,104 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:58] "GET /prescription/E1M6 HTTP/1.1" 200 -
+2023-10-11 06:30:58,141 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:58] "GET /prescription/E1M6 HTTP/1.1" 200 -
+2023-10-11 07:26:25,530 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:25] "GET /prescription/RE4U HTTP/1.1" 200 -
+2023-10-11 07:26:25,544 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:25] "GET /prescription/RE4U HTTP/1.1" 200 -
+2023-10-11 07:28:55,056 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:28:55] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-11 07:28:55,067 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:28:55] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-11 07:29:14,249 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:14] "GET /prescription/RE4U HTTP/1.1" 200 -
+2023-10-11 07:29:14,286 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:14] "GET /prescription/RE4U HTTP/1.1" 200 -
+2023-10-14 15:47:36,441 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2023-10-14 15:47:36,441 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-14 15:49:33,100 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-14 15:49:33,126 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "GET /prescription/H75P HTTP/1.1" 200 -
+2023-10-14 16:26:33,525 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:26:33] "OPTIONS /prescription/add HTTP/1.1" 200 -
+2023-10-14 16:26:33,538 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:26:33] "POST /prescription/add HTTP/1.1" 200 -
+2023-10-14 16:27:30,457 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:30] "GET /prescription/2 HTTP/1.1" 200 -
+2023-10-14 16:27:30,475 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:30] "GET /prescription/2 HTTP/1.1" 200 -

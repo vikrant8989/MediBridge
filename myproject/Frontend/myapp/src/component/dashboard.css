@@ -1,0 +1,59 @@
+.myusernavbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Left section styles */
+  .left {
+    flex: 1;
+  }
+  
+  /* Center section styles */
+  .center {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Right section styles */
+  .right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Links styles */
+  a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Header styles */
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+.nameset{
+   margin: 8px;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: blueviolet;
+   font-size: large;
+  }

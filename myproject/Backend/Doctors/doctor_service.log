@@ -1,0 +1,1012 @@
+2023-10-09 14:59:52,544 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-09 14:59:52,544 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:10:25,727 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:10:25] "[33mGET /doctors/?6 HTTP/1.1[0m" 404 -
+2023-10-09 15:11:26,402 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-09 15:11:26,403 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:11:34,213 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:11:34] "[33mGET /doctors/?6 HTTP/1.1[0m" 404 -
+2023-10-09 15:13:15,976 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-09 15:13:15,976 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 15:13:21,108 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:13:21] "[33mGET /doctors/?6 HTTP/1.1[0m" 404 -
+2023-10-09 15:14:32,972 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:14:32] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-09 15:14:32,989 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:14:32] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-09 15:23:14,870 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:23:14] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 15:23:14,898 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:23:14] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 15:23:16,920 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:23:16] "GET /Doctor/7 HTTP/1.1" 200 -
+2023-10-09 15:23:16,944 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:23:16] "GET /Doctor/7 HTTP/1.1" 200 -
+2023-10-09 15:23:16,998 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:23:16] "[33mGET /get_image/Ashu HTTP/1.1[0m" 404 -
+2023-10-09 15:25:47,001 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:47] "GET /doctors/search/Skin%20Care/ HTTP/1.1" 200 -
+2023-10-09 15:25:47,076 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:47] "GET /doctors/search/Skin%20Care/ HTTP/1.1" 200 -
+2023-10-09 15:25:49,023 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:49] "GET /Doctor/CVCN HTTP/1.1" 200 -
+2023-10-09 15:25:49,049 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:49] "GET /Doctor/CVCN HTTP/1.1" 200 -
+2023-10-09 15:25:49,141 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:49] "GET /get_image/Pranoschal%20Saikia HTTP/1.1" 200 -
+2023-10-09 15:25:56,770 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:56] "GET /doctors/search/Depression/ HTTP/1.1" 200 -
+2023-10-09 15:25:56,790 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:56] "GET /doctors/search/Depression/ HTTP/1.1" 200 -
+2023-10-09 15:25:58,213 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:58] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 15:25:58,245 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:58] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 15:25:58,268 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:25:58] "GET /get_image/Akriti HTTP/1.1" 200 -
+2023-10-09 15:26:05,684 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:05] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 15:26:05,697 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:05] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 15:26:13,295 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:13] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 15:26:13,314 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:13] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 15:26:15,083 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:15] "GET /Doctor/7 HTTP/1.1" 200 -
+2023-10-09 15:26:15,100 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:15] "GET /Doctor/7 HTTP/1.1" 200 -
+2023-10-09 15:26:15,132 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:15] "GET /get_image/Ashu HTTP/1.1" 200 -
+2023-10-09 15:26:17,514 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:17] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 15:26:17,533 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:17] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 15:26:19,247 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:19] "GET /Doctor/2 HTTP/1.1" 200 -
+2023-10-09 15:26:19,269 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:19] "GET /Doctor/2 HTTP/1.1" 200 -
+2023-10-09 15:26:19,296 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:19] "GET /get_image/Kajal HTTP/1.1" 200 -
+2023-10-09 15:26:24,615 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:24] "GET /doctors/search/Kidney%20Stones/ HTTP/1.1" 200 -
+2023-10-09 15:26:24,637 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:24] "GET /doctors/search/Kidney%20Stones/ HTTP/1.1" 200 -
+2023-10-09 15:26:26,564 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:26] "GET /Doctor/BFUH HTTP/1.1" 200 -
+2023-10-09 15:26:26,599 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:26] "GET /Doctor/BFUH HTTP/1.1" 200 -
+2023-10-09 15:26:26,632 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:26] "GET /get_image/Muskan%20Singh HTTP/1.1" 200 -
+2023-10-09 15:26:35,460 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:35] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-09 15:26:35,488 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:35] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-09 15:26:37,431 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:37] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 15:26:37,449 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:37] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 15:26:37,480 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:26:37] "GET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1" 200 -
+2023-10-09 15:28:13,131 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:13] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 15:28:13,188 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:13] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 15:28:15,901 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:15] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 15:28:15,915 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:15] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 15:28:31,654 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:31] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-09 15:28:31,701 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:31] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-09 15:28:33,586 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:33] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 15:28:33,602 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:33] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 15:28:33,633 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:33] "GET /get_image/Tanvi%20Singh HTTP/1.1" 200 -
+2023-10-09 15:28:44,507 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:44] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:28:44,518 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:28:44] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:33:05,522 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:05] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-09 15:33:05,531 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:05] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-09 15:33:05,563 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:05] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-09 15:33:05,591 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:05] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-09 15:33:26,267 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:26] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 15:33:26,279 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:26] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 15:33:26,350 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:26] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 15:33:26,361 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:33:26] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 15:34:16,587 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:16] "GET /doctors/search/spz/Dermatologist/ HTTP/1.1" 200 -
+2023-10-09 15:34:16,601 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:16] "GET /doctors/search/spz/Dermatologist/ HTTP/1.1" 200 -
+2023-10-09 15:34:18,965 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:18] "GET /Doctor/CVCN HTTP/1.1" 200 -
+2023-10-09 15:34:18,982 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:18] "GET /Doctor/CVCN HTTP/1.1" 200 -
+2023-10-09 15:34:19,002 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:34:19] "[36mGET /get_image/Pranoschal%20Saikia HTTP/1.1[0m" 304 -
+2023-10-09 15:37:34,219 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:37:34] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 15:37:34,240 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:37:34] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 15:37:53,929 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:37:53] "[32mGET /doctors/search/stomach%20problem HTTP/1.1[0m" 308 -
+2023-10-09 15:37:53,935 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:37:53] "GET /doctors/search/stomach%20problem/ HTTP/1.1" 200 -
+2023-10-09 15:37:53,943 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:37:53] "GET /doctors/search/stomach%20problem/ HTTP/1.1" 200 -
+2023-10-09 15:38:02,584 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:02] "[32mGET /doctors/search/My%20head%20is%20paining HTTP/1.1[0m" 308 -
+2023-10-09 15:38:02,597 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:02] "GET /doctors/search/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-09 15:38:02,610 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:02] "GET /doctors/search/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-09 15:38:12,255 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:12] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 15:38:12,278 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:12] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 15:38:14,281 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:14] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 15:38:14,297 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:14] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 15:38:14,317 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:14] "[36mGET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1[0m" 304 -
+2023-10-09 15:38:56,615 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:56] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 15:38:56,651 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:56] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 15:38:56,681 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:56] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 15:38:56,696 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:38:56] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 15:39:49,987 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:39:49] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:39:49,997 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:39:49] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:40:42,563 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:40:42] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:40:42,574 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:40:42] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:49:37,037 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:49:37] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 15:49:37,058 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:49:37] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 15:49:37,111 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:49:37] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 15:49:37,129 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:49:37] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 15:57:04,581 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:57:04] "POST /Doctors/Registration HTTP/1.1" 200 -
+2023-10-09 15:57:21,731 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:57:21] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:57:21,742 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:57:21] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:57:48,125 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:57:48] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:57:48,136 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:57:48] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 15:59:07,481 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:59:07] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 15:59:07,491 [INFO]: 127.0.0.1 - - [09/Oct/2023 15:59:07] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 16:01:35,298 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-09 16:01:35,299 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 16:01:42,104 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:42] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 16:01:42,124 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:42] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 16:01:44,739 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:44] "GET /Doctor/EQAE HTTP/1.1" 200 -
+2023-10-09 16:01:44,768 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:44] "GET /Doctor/EQAE HTTP/1.1" 200 -
+2023-10-09 16:01:44,899 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:44] "GET /get_image/Chachal HTTP/1.1" 200 -
+2023-10-09 16:01:58,582 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:58] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:01:58,592 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:58] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:01:58,625 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:58] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:01:58,635 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:01:58] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:23:13,847 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:23:13] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 16:23:13,858 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:23:13] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 16:45:28,508 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:28] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:45:28,518 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:28] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:45:28,563 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:28] "[32mGET /doctors/5 HTTP/1.1[0m" 308 -
+2023-10-09 16:45:28,574 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:28] "GET /doctors/5/ HTTP/1.1" 200 -
+2023-10-09 16:45:28,668 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:28] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:45:28,888 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:28] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:45:29,073 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:29] "[32mGET /doctors/5 HTTP/1.1[0m" 308 -
+2023-10-09 16:45:29,093 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:45:29] "GET /doctors/5/ HTTP/1.1" 200 -
+2023-10-09 16:47:20,474 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:47:20] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:47:20,486 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:47:20] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:47:20,512 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:47:20] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:47:20,523 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:47:20] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:55:52,258 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:55:52] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:55:52,266 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:55:52] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:55:52,300 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:55:52] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:55:52,327 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:55:52] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:56:00,875 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:00] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 16:56:00,915 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:00] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 16:56:03,064 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:03] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 16:56:03,086 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:03] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 16:56:03,110 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:03] "[36mGET /get_image/Tanvi%20Singh HTTP/1.1[0m" 304 -
+2023-10-09 16:56:14,164 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:14] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:56:14,180 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:14] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:56:14,398 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:14] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:56:14,510 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:14] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:56:36,659 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:36] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 16:56:36,682 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:36] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 16:56:38,492 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:38] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 16:56:38,517 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:38] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 16:56:38,534 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:56:38] "[36mGET /get_image/Tanvi%20Singh HTTP/1.1[0m" 304 -
+2023-10-09 16:58:38,008 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:58:38] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 16:58:38,020 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:58:38] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 16:59:10,415 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:59:10,425 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:59:10,432 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 16:59:10,439 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 16:59:10,468 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 16:59:10,476 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 16:59:10,482 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 16:59:10,490 [INFO]: 127.0.0.1 - - [09/Oct/2023 16:59:10] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 17:43:11,277 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-09 17:43:11,277 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 18:37:16,602 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:37:16] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 18:37:16,635 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:37:16] "GET /doctors/search/Pregnancy/ HTTP/1.1" 200 -
+2023-10-09 18:37:19,077 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:37:19] "GET /Doctor/EQAE HTTP/1.1" 200 -
+2023-10-09 18:37:19,098 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:37:19] "GET /Doctor/EQAE HTTP/1.1" 200 -
+2023-10-09 18:37:19,186 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:37:19] "[36mGET /get_image/Chachal HTTP/1.1[0m" 304 -
+2023-10-09 18:46:34,176 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:46:34] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 18:46:34,189 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:46:34] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-09 18:46:38,232 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:46:38] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 18:46:38,251 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:46:38] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-09 18:46:38,271 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:46:38] "[36mGET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1[0m" 304 -
+2023-10-09 18:46:48,647 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:46:48] "GET /doctors/search/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-09 18:46:48,655 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:46:48] "GET /doctors/search/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-09 18:47:06,265 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:06] "GET /doctors/search/Heart%20attack/ HTTP/1.1" 200 -
+2023-10-09 18:47:06,273 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:06] "GET /doctors/search/Heart%20attack/ HTTP/1.1" 200 -
+2023-10-09 18:47:14,340 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:14] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 18:47:14,360 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:14] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-09 18:47:33,675 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:33] "GET /doctors/search/Depression/ HTTP/1.1" 200 -
+2023-10-09 18:47:33,702 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:33] "GET /doctors/search/Depression/ HTTP/1.1" 200 -
+2023-10-09 18:47:35,222 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:35] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 18:47:35,238 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:35] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 18:47:35,254 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:35] "[36mGET /get_image/Akriti HTTP/1.1[0m" 304 -
+2023-10-09 18:47:46,468 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:46] "GET /doctors/search/spz/Dermatologist/ HTTP/1.1" 200 -
+2023-10-09 18:47:46,490 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:46] "GET /doctors/search/spz/Dermatologist/ HTTP/1.1" 200 -
+2023-10-09 18:47:48,682 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:48] "GET /Doctor/CVCN HTTP/1.1" 200 -
+2023-10-09 18:47:48,711 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:48] "GET /Doctor/CVCN HTTP/1.1" 200 -
+2023-10-09 18:47:48,721 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:48] "[36mGET /get_image/Pranoschal%20Saikia HTTP/1.1[0m" 304 -
+2023-10-09 18:47:58,710 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:47:58,721 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:47:58,746 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:47:58,757 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:47:58,837 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:47:58,850 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:47:58,868 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:47:58,887 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:47:58] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:48:17,951 [ERROR]: Exception on /chat/My legs are paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-09 18:48:17,969 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:48:17] "[35m[1mGET /chat/My%20legs%20are%20paining HTTP/1.1[0m" 500 -
+2023-10-09 18:48:18,780 [ERROR]: Exception on /chat/My legs are paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-09 18:48:18,781 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:48:18] "[35m[1mGET /chat/My%20legs%20are%20paining HTTP/1.1[0m" 500 -
+2023-10-09 18:48:52,805 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-09 18:48:52,806 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:48:52] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-09 18:48:53,917 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-09 18:48:53,919 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:48:53] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-09 18:49:14,518 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-09 18:49:14,519 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-09 18:50:37,969 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:37] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:50:37,993 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:37] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:50:38,001 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:50:38,012 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:50:38,039 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:50:38,051 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:50:38,075 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:50:38,095 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:38] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:50:49,603 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:49] "GET /doctors/search/spz/Psychiatrist/ HTTP/1.1" 200 -
+2023-10-09 18:50:49,662 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:49] "GET /doctors/search/spz/Psychiatrist/ HTTP/1.1" 200 -
+2023-10-09 18:50:51,378 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:51] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 18:50:51,401 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:51] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 18:50:51,493 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:50:51] "[36mGET /get_image/Akriti HTTP/1.1[0m" 304 -
+2023-10-09 18:51:08,426 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:51:08] "GET /doctors/search/spz/Psychiatrist/ HTTP/1.1" 200 -
+2023-10-09 18:51:08,454 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:51:08] "GET /doctors/search/spz/Psychiatrist/ HTTP/1.1" 200 -
+2023-10-09 18:51:09,819 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:51:09] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 18:51:09,831 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:51:09] "GET /Doctor/4 HTTP/1.1" 200 -
+2023-10-09 18:52:46,167 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:52:46,176 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:52:46,187 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:52:46,194 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:52:46,233 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:52:46,245 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:52:46,252 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:52:46,260 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:52:46] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:54:01,288 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:01] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-09 18:54:01,299 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:01] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-09 18:54:34,240 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:54:34,248 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:54:34,259 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:54:34,270 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:54:34,278 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-09 18:54:34,286 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-09 18:54:34,314 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:54:34,325 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:54:34,332 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:54:34,341 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:54:34,354 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-09 18:54:34,363 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:54:34] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-09 18:56:18,307 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:56:18] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 18:56:18,350 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:56:18] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 18:56:34,445 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:56:34] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 18:56:34,473 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:56:34] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 18:56:34,486 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:56:34] "[36mGET /get_image/Tanvi%20Singh HTTP/1.1[0m" 304 -
+2023-10-09 18:57:22,378 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:22] "GET /doctors/search/Skin%20Care/ HTTP/1.1" 200 -
+2023-10-09 18:57:22,408 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:22] "GET /doctors/search/Skin%20Care/ HTTP/1.1" 200 -
+2023-10-09 18:57:27,140 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:27] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-09 18:57:27,180 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:27] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-09 18:57:34,395 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:34] "GET /doctors/search/Seizures/ HTTP/1.1" 200 -
+2023-10-09 18:57:34,425 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:34] "GET /doctors/search/Seizures/ HTTP/1.1" 200 -
+2023-10-09 18:57:44,064 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:44] "GET /doctors/search/Kidney%20Stones/ HTTP/1.1" 200 -
+2023-10-09 18:57:44,117 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:57:44] "GET /doctors/search/Kidney%20Stones/ HTTP/1.1" 200 -
+2023-10-09 18:58:06,373 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:06] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 18:58:06,413 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:06] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 18:58:29,371 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:29] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 18:58:29,400 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:29] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 18:58:29,411 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:29] "[36mGET /get_image/Tanvi%20Singh HTTP/1.1[0m" 304 -
+2023-10-09 18:58:46,220 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:46] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 18:58:46,265 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:46] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-09 18:58:48,158 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:48] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 18:58:48,175 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:58:48] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-09 18:59:20,667 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:59:20,680 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:59:20,689 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:59:20,705 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:59:20,716 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-09 18:59:20,724 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-09 18:59:20,754 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-09 18:59:20,763 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-09 18:59:20,770 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-09 18:59:20,779 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-09 18:59:20,793 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-09 18:59:20,801 [INFO]: 127.0.0.1 - - [09/Oct/2023 18:59:20] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 04:11:29,543 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 04:11:29,544 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 04:17:31,936 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:31] "GET /doctors/search/Tooth%20Decay/ HTTP/1.1" 200 -
+2023-10-10 04:17:31,953 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:31] "GET /doctors/search/Tooth%20Decay/ HTTP/1.1" 200 -
+2023-10-10 04:17:33,494 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:33] "GET /Doctor/3 HTTP/1.1" 200 -
+2023-10-10 04:17:33,510 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:33] "GET /Doctor/3 HTTP/1.1" 200 -
+2023-10-10 04:17:33,635 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:33] "GET /get_image/Shivam HTTP/1.1" 200 -
+2023-10-10 04:17:42,338 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 04:17:42,345 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 04:17:42,352 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 04:17:42,359 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 04:17:42,364 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 04:17:42,373 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 04:17:42,394 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 04:17:42,403 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 04:17:42,411 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 04:17:42,420 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 04:17:42,428 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 04:17:42,437 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:42] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 04:17:57,136 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 04:17:57,214 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:57] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 04:17:58,055 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 04:17:58,056 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:17:58] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 04:24:52,818 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 04:24:52,818 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 04:25:14,239 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:25:14] "GET /chat/My%20head%20is%20paining HTTP/1.1" 200 -
+2023-10-10 04:25:26,649 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:25:26] "GET /chat/My%20head%20is%20paining HTTP/1.1" 200 -
+2023-10-10 04:25:56,680 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:25:56] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-10 04:25:56,734 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:25:56] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-10 04:26:56,095 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 04:26:56,107 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 04:26:56,114 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 04:26:56,121 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 04:26:56,127 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 04:26:56,133 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 04:26:56,162 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 04:26:56,169 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 04:26:56,175 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 04:26:56,181 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 04:26:56,188 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 04:26:56,195 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:26:56] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 04:35:45,327 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:45] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-10 04:35:45,383 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:45] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-10 04:35:49,148 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 04:35:49,157 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 04:35:49,164 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 04:35:49,171 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 04:35:49,182 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 04:35:49,190 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 04:35:49,213 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 04:35:49,222 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 04:35:49,229 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 04:35:49,236 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 04:35:49,246 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 04:35:49,255 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:35:49] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 04:42:17,960 [ERROR]: Exception on /chat/My legs are paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 04:42:17,963 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:42:17] "[35m[1mGET /chat/My%20legs%20are%20paining HTTP/1.1[0m" 500 -
+2023-10-10 04:42:19,094 [ERROR]: Exception on /chat/My legs are paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 04:42:19,098 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:42:19] "[35m[1mGET /chat/My%20legs%20are%20paining HTTP/1.1[0m" 500 -
+2023-10-10 04:44:07,807 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 04:44:07,807 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 04:44:20,791 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 04:44:20,794 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:44:20] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 04:44:22,227 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 04:44:22,228 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:44:22] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 04:48:47,077 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 04:48:47,077 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 04:48:55,955 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:48:55] "GET /doctors/search/spz/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-10 04:48:55,964 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:48:55] "GET /doctors/search/spz/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-10 04:49:40,282 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:49:40] "GET /chat/My%20head%20is%20paining HTTP/1.1" 200 -
+2023-10-10 04:49:49,731 [INFO]: 127.0.0.1 - - [10/Oct/2023 04:49:49] "GET /chat/My%20head%20is%20paining HTTP/1.1" 200 -
+2023-10-10 05:28:39,120 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 05:28:39,120 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 06:00:42,710 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 06:00:42,722 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 06:00:42,726 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 06:00:42,734 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 06:00:42,741 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 06:00:42,750 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 06:00:42,772 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 06:00:42,780 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 06:00:42,788 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "[32mGET /doctors/915V HTTP/1.1[0m" 308 -
+2023-10-10 06:00:42,795 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /doctors/915V/ HTTP/1.1" 200 -
+2023-10-10 06:00:42,803 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "[32mGET /doctors/4 HTTP/1.1[0m" 308 -
+2023-10-10 06:00:42,811 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:00:42] "GET /doctors/4/ HTTP/1.1" 200 -
+2023-10-10 06:01:02,571 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:01:02] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-10 06:01:02,583 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:01:02] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-10 06:01:10,456 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:01:10] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-10 06:01:10,470 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:01:10] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-10 06:01:10,561 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:01:10] "[36mGET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1[0m" 304 -
+2023-10-10 06:02:30,022 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:02:30] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 06:02:30,031 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:02:30] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 06:03:37,340 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:03:37] "GET /doctors/search/Depression/ HTTP/1.1" 200 -
+2023-10-10 06:03:37,357 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:03:37] "GET /doctors/search/Depression/ HTTP/1.1" 200 -
+2023-10-10 06:04:12,864 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-10 06:04:12,871 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-10 06:04:12,877 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-10 06:04:12,884 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-10 06:04:12,906 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-10 06:04:12,914 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-10 06:04:12,920 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-10 06:04:12,928 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:12] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-10 06:04:55,765 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:55] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 06:04:55,773 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:04:55] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 06:05:43,526 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 06:05:43,528 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:43] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 06:05:44,441 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 06:05:44,443 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:05:44] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 06:06:42,419 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 06:06:42,421 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:06:42] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 06:06:43,540 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 06:06:43,541 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:06:43] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 06:30:55,445 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 06:30:55,446 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 06:31:11,760 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:31:11] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-10 06:31:11,777 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:31:11] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-10 06:31:36,602 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:31:36] "GET /chat/My%20head%20is%20paining HTTP/1.1" 200 -
+2023-10-10 06:31:57,122 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 06:31:57,123 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 06:35:31,031 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:35:31] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 06:35:31,044 [INFO]: 127.0.0.1 - - [10/Oct/2023 06:35:31] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 17:29:42,260 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 17:29:42,294 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 18:11:03,158 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:11:03] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-10 18:11:03,197 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:11:03] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-10 18:11:07,249 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:11:07] "GET /Doctor/2 HTTP/1.1" 200 -
+2023-10-10 18:11:07,270 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:11:07] "GET /Doctor/2 HTTP/1.1" 200 -
+2023-10-10 18:11:07,437 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:11:07] "[36mGET /get_image/Kajal HTTP/1.1[0m" 304 -
+2023-10-10 18:17:56,583 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:17:56] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 18:17:56,593 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:17:56] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 18:20:02,191 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:02] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 18:20:02,199 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:02] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 18:20:02,224 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:02] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-10 18:20:02,245 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:02] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-10 18:20:16,780 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 18:20:16,828 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:16] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 18:20:18,055 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-10 18:20:18,056 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:20:18] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-10 18:23:11,663 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:23:11] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:23:11,675 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:23:11] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:23:49,693 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:23:49] "GET /doctors/search/spz/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:23:49,748 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:23:49] "GET /doctors/search/spz/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:25:53,583 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:25:53] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:25:53,608 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:25:53] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:26:59,505 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:26:59] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:27:48,771 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-10 18:27:48,771 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-10 18:28:11,432 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:28:11] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:28:11,466 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:28:11] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:28:27,147 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:28:27] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:30:52,207 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:30:52] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:30:52,250 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:30:52] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:31:56,198 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:31:56] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:31:59,152 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:31:59] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:32:24,992 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:32:24] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:32:25,011 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:32:25] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:32:43,507 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:32:43] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:32:43,515 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:32:43] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:35:03,847 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:35:03] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:35:12,437 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:35:12] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:35:12,454 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:35:12] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:37:50,210 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:37:50] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:37:50,245 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:37:50] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:38:15,165 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:38:15] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:38:40,692 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:38:40] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:38:40,707 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:38:40] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:38:58,796 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:38:58] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:39:15,420 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:15] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-10 18:39:15,605 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:15] "GET /doctors/search/Heart%20Attack/ HTTP/1.1" 200 -
+2023-10-10 18:39:26,090 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:26] "GET /Doctor/7 HTTP/1.1" 200 -
+2023-10-10 18:39:26,110 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:26] "GET /Doctor/7 HTTP/1.1" 200 -
+2023-10-10 18:39:26,195 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:26] "[36mGET /get_image/Ashu HTTP/1.1[0m" 304 -
+2023-10-10 18:39:40,912 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:40] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:39:40,923 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:39:40] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:40:41,163 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:40:41] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:42:58,167 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:42:58] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:47:43,125 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:47:43] "[32mGET /doctors/search/spz/Headache HTTP/1.1[0m" 308 -
+2023-10-10 18:47:43,135 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:47:43] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:47:43,156 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:47:43] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:48:28,996 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:48:28] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:48:29,028 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:48:29] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:49:33,343 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:49:33] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:49:53,181 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:49:53] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:50:13,063 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:13] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:50:13,076 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:13] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 18:50:23,606 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:23] "GET /doctors/search/spz/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-10 18:50:23,617 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:23] "GET /doctors/search/spz/My%20head%20is%20paining/ HTTP/1.1" 200 -
+2023-10-10 18:50:32,621 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:32] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:50:32,632 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:32] "GET /doctors/search/spz/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:50:38,681 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:38] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:50:38,732 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:38] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-10 18:50:45,056 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:45] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-10 18:50:45,114 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:45] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-10 18:50:45,127 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:50:45] "[36mGET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1[0m" 304 -
+2023-10-10 18:51:53,416 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:51:53] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 18:51:53,426 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:51:53] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 18:52:47,254 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:47] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 18:52:47,263 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:47] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 18:52:57,821 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:57] "[32mGET /doctors/1 HTTP/1.1[0m" 308 -
+2023-10-10 18:52:57,829 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:57] "GET /doctors/1/ HTTP/1.1" 200 -
+2023-10-10 18:52:57,856 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:57] "[32mGET /doctors/1 HTTP/1.1[0m" 308 -
+2023-10-10 18:52:57,864 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:52:57] "GET /doctors/1/ HTTP/1.1" 200 -
+2023-10-10 18:59:07,020 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:59:07] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 18:59:07,032 [INFO]: 127.0.0.1 - - [10/Oct/2023 18:59:07] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:00:15,694 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:00:15] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:00:15,703 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:00:15] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:00:16,946 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:00:16] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:00:18,028 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:00:18] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:00:20,086 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:00:20] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:01:12,492 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:01:12] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:01:12,501 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:01:12] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:02:02,828 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:02:02] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:02:02,838 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:02:02] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:05:03,140 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:03] "[32mGET /doctors/1 HTTP/1.1[0m" 308 -
+2023-10-10 19:05:03,149 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:03] "GET /doctors/1/ HTTP/1.1" 200 -
+2023-10-10 19:05:03,167 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:03] "[32mGET /doctors/1 HTTP/1.1[0m" 308 -
+2023-10-10 19:05:03,183 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:03] "GET /doctors/1/ HTTP/1.1" 200 -
+2023-10-10 19:05:18,259 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:18] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:05:18,270 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:18] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:05:41,453 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:41] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:05:41,461 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:41] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:05:53,490 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:53] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-10 19:05:53,511 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:05:53] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-10 19:29:02,622 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:29:02] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 19:29:02,631 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:29:02] "GET /doctors/search/Cardiologist/ HTTP/1.1" 200 -
+2023-10-10 19:29:31,109 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:29:31] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-10 19:29:31,118 [INFO]: 127.0.0.1 - - [10/Oct/2023 19:29:31] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-11 06:01:47,787 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-11 06:01:47,805 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-11 06:10:48,893 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:10:48] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-11 06:10:48,930 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:10:48] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-11 06:10:52,024 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:10:52] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-11 06:10:52,070 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:10:52] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-11 06:10:52,172 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:10:52] "[36mGET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1[0m" 304 -
+2023-10-11 06:28:13,259 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:13] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-11 06:28:13,270 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:13] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-11 06:28:51,586 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:51] "GET /doctors/search/Tooth%20Decay/ HTTP/1.1" 200 -
+2023-10-11 06:28:51,606 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:51] "GET /doctors/search/Tooth%20Decay/ HTTP/1.1" 200 -
+2023-10-11 06:28:58,112 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:58] "GET /Doctor/3 HTTP/1.1" 200 -
+2023-10-11 06:28:58,126 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:58] "GET /Doctor/3 HTTP/1.1" 200 -
+2023-10-11 06:28:58,162 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:28:58] "[36mGET /get_image/Shivam HTTP/1.1[0m" 304 -
+2023-10-11 06:30:13,712 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:13] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-11 06:30:13,722 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:13] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-11 06:30:58,091 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:58] "[32mGET /doctors/3 HTTP/1.1[0m" 308 -
+2023-10-11 06:30:58,101 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:58] "GET /doctors/3/ HTTP/1.1" 200 -
+2023-10-11 06:30:58,127 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:58] "[32mGET /doctors/3 HTTP/1.1[0m" 308 -
+2023-10-11 06:30:58,136 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:30:58] "GET /doctors/3/ HTTP/1.1" 200 -
+2023-10-11 06:32:07,163 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:07] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-11 06:32:07,178 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:07] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-11 06:32:12,937 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:12] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-11 06:32:12,954 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:12] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-11 06:32:12,971 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:12] "[36mGET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1[0m" 304 -
+2023-10-11 06:32:22,989 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:22] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-11 06:32:23,002 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:23] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-11 06:32:50,569 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-11 06:32:50,660 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:50] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-11 06:32:51,789 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-11 06:32:51,790 [INFO]: 127.0.0.1 - - [11/Oct/2023 06:32:51] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-11 07:23:46,980 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:23:46] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-11 07:23:47,025 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:23:47] "GET /doctors/search/Cold/ HTTP/1.1" 200 -
+2023-10-11 07:23:56,366 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:23:56] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-11 07:23:56,380 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:23:56] "GET /Doctor/915V HTTP/1.1" 200 -
+2023-10-11 07:23:56,430 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:23:56] "[36mGET /get_image/Tanvi%20Singh HTTP/1.1[0m" 304 -
+2023-10-11 07:26:05,817 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:05] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-11 07:26:05,827 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:05] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-11 07:26:47,233 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:47] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-11 07:26:47,307 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:47] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-11 07:26:49,998 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:49] "GET /Doctor/A7FJ HTTP/1.1" 200 -
+2023-10-11 07:26:50,034 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:50] "GET /Doctor/A7FJ HTTP/1.1" 200 -
+2023-10-11 07:26:50,115 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:26:50] "GET /get_image/Nandini%20Gupta HTTP/1.1" 200 -
+2023-10-11 07:28:34,286 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:28:34] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-11 07:28:34,295 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:28:34] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-11 07:29:14,236 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:14] "[32mGET /doctors/A7FJ HTTP/1.1[0m" 308 -
+2023-10-11 07:29:14,244 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:14] "GET /doctors/A7FJ/ HTTP/1.1" 200 -
+2023-10-11 07:29:14,271 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:14] "[32mGET /doctors/A7FJ HTTP/1.1[0m" 308 -
+2023-10-11 07:29:14,282 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:14] "GET /doctors/A7FJ/ HTTP/1.1" 200 -
+2023-10-11 07:29:30,580 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:30] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-11 07:29:30,607 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:30] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-11 07:29:47,733 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:47] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-11 07:29:47,753 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:29:47] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-11 07:30:01,790 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-11 07:30:01,791 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:30:01] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-11 07:30:02,599 [ERROR]: Exception on /chat/My head is paining [GET]
+Traceback (most recent call last):
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Program Files\Python310\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\VMAdmin\Desktop\FINAL PROJECT\Backend\Doctors\doctorcontroller.py", line 96, in getresponsefromai
+    res = Bard().get_answer(input_text)['content']
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 55, in __init__
+    self.SNlM0e = self._get_snim0e()
+  File "C:\Users\VMAdmin\AppData\Roaming\Python\Python310\site-packages\bardapi\core.py", line 128, in _get_snim0e
+    raise Exception(
+Exception: SNlM0e value not found. Double-check __Secure-1PSID value or pass it as token='xxxxx'.
+2023-10-11 07:30:02,600 [INFO]: 127.0.0.1 - - [11/Oct/2023 07:30:02] "[35m[1mGET /chat/My%20head%20is%20paining HTTP/1.1[0m" 500 -
+2023-10-14 15:44:52,197 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-14 15:44:52,198 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-14 15:48:44,123 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:48:44] "[32mGET /doctors/search/Fractures HTTP/1.1[0m" 308 -
+2023-10-14 15:48:44,164 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:48:44] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-14 15:48:44,169 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:48:44] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-14 15:48:46,079 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:48:46] "GET /Doctor/A7FJ HTTP/1.1" 200 -
+2023-10-14 15:48:46,089 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:48:46] "GET /Doctor/A7FJ HTTP/1.1" 200 -
+2023-10-14 15:48:46,133 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:48:46] "GET /get_image/Nandini%20Gupta HTTP/1.1" 200 -
+2023-10-14 15:49:33,085 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-14 15:49:33,090 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-14 15:49:33,094 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "[32mGET /doctors/5 HTTP/1.1[0m" 308 -
+2023-10-14 15:49:33,098 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "GET /doctors/5/ HTTP/1.1" 200 -
+2023-10-14 15:49:33,107 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "[32mGET /doctors/2 HTTP/1.1[0m" 308 -
+2023-10-14 15:49:33,111 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "GET /doctors/2/ HTTP/1.1" 200 -
+2023-10-14 15:49:33,115 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "[32mGET /doctors/5 HTTP/1.1[0m" 308 -
+2023-10-14 15:49:33,123 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:49:33] "GET /doctors/5/ HTTP/1.1" 200 -
+2023-10-14 15:50:20,817 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:20] "[32mGET /doctors/search/headache HTTP/1.1[0m" 308 -
+2023-10-14 15:50:20,828 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:20] "GET /doctors/search/headache/ HTTP/1.1" 200 -
+2023-10-14 15:50:20,832 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:20] "GET /doctors/search/headache/ HTTP/1.1" 200 -
+2023-10-14 15:50:28,798 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:28] "[32mGET /doctors/search/Headache HTTP/1.1[0m" 308 -
+2023-10-14 15:50:28,806 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:28] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-14 15:50:28,811 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:28] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-14 15:50:30,510 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:30] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-14 15:50:30,520 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:30] "GET /Doctor/1 HTTP/1.1" 200 -
+2023-10-14 15:50:30,530 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:30] "GET /get_image/Vikrant%20Pratap%20Singh HTTP/1.1" 200 -
+2023-10-14 15:50:37,951 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:37] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-14 15:50:37,956 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:50:37] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-14 15:57:25,676 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:57:25] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-14 15:57:25,685 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:57:25] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-14 15:59:52,620 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:59:52] "[32mGET /doctors/search/spz/Neurologist HTTP/1.1[0m" 308 -
+2023-10-14 15:59:52,629 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:59:52] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-14 15:59:52,634 [INFO]: 127.0.0.1 - - [14/Oct/2023 15:59:52] "GET /doctors/search/spz/Neurologist/ HTTP/1.1" 200 -
+2023-10-14 16:26:06,683 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:26:06] "OPTIONS /Doctor/login HTTP/1.1" 200 -
+2023-10-14 16:26:06,691 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:26:06] "GET /Doctor/login HTTP/1.1" 200 -
+2023-10-14 16:27:30,451 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:30] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-14 16:27:30,456 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:30] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-14 16:27:30,465 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:30] "[32mGET /doctors/6 HTTP/1.1[0m" 308 -
+2023-10-14 16:27:30,472 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:30] "GET /doctors/6/ HTTP/1.1" 200 -
+2023-10-14 16:27:53,457 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:53] "[32mGET /doctors/search/spz/Dermatologist HTTP/1.1[0m" 308 -
+2023-10-14 16:27:53,468 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:53] "GET /doctors/search/spz/Dermatologist/ HTTP/1.1" 200 -
+2023-10-14 16:27:53,473 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:27:53] "GET /doctors/search/spz/Dermatologist/ HTTP/1.1" 200 -
+2023-10-14 16:38:31,679 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-14 16:38:31,679 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-14 16:38:44,876 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:38:44] "[32mGET /doctors/search/Fractures HTTP/1.1[0m" 308 -
+2023-10-14 16:38:44,887 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:38:44] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-14 16:38:44,892 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:38:44] "GET /doctors/search/Fractures/ HTTP/1.1" 200 -
+2023-10-14 16:38:46,448 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:38:46] "GET /Doctor/A7FJ HTTP/1.1" 200 -
+2023-10-14 16:38:46,457 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:38:46] "GET /Doctor/A7FJ HTTP/1.1" 200 -
+2023-10-14 16:38:46,498 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:38:46] "GET /get_image/Nandini%20Gupta HTTP/1.1" 200 -
+2023-10-14 16:39:24,418 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:39:24] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-14 16:39:24,424 [INFO]: 127.0.0.1 - - [14/Oct/2023 16:39:24] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-15 13:13:09,050 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-15 13:13:09,050 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-15 13:14:31,915 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:14:31] "[32mGET /doctors/search/Kidney%20Stones HTTP/1.1[0m" 308 -
+2023-10-15 13:14:31,947 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:14:31] "GET /doctors/search/Kidney%20Stones/ HTTP/1.1" 200 -
+2023-10-15 13:14:31,968 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:14:31] "GET /doctors/search/Kidney%20Stones/ HTTP/1.1" 200 -
+2023-10-15 13:14:34,560 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:14:34] "GET /Doctor/BFUH HTTP/1.1" 200 -
+2023-10-15 13:14:34,570 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:14:34] "GET /Doctor/BFUH HTTP/1.1" 200 -
+2023-10-15 13:14:34,619 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:14:34] "GET /get_image/Muskan%20Singh HTTP/1.1" 200 -
+2023-10-15 13:15:05,432 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:15:05] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-15 13:15:05,439 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:15:05] "GET /doctors/search/Headache/ HTTP/1.1" 200 -
+2023-10-15 13:15:46,713 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:15:46] "[32mGET /doctors/search/Tooth%20Decay HTTP/1.1[0m" 308 -
+2023-10-15 13:15:46,723 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:15:46] "GET /doctors/search/Tooth%20Decay/ HTTP/1.1" 200 -
+2023-10-15 13:15:46,729 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:15:46] "GET /doctors/search/Tooth%20Decay/ HTTP/1.1" 200 -
+2023-10-15 13:16:20,191 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:16:20] "[32mGET /doctors/search/spz/General%20Practitioner HTTP/1.1[0m" 308 -
+2023-10-15 13:16:20,202 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:16:20] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-15 13:16:20,207 [INFO]: 127.0.0.1 - - [15/Oct/2023 13:16:20] "GET /doctors/search/spz/General%20Practitioner/ HTTP/1.1" 200 -
+2023-10-15 19:33:43,663 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-15 19:33:43,663 [INFO]: [33mPress CTRL+C to quit[0m
+2023-10-15 19:59:30,651 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-15 19:59:30,652 [INFO]: [33mPress CTRL+C to quit[0m
